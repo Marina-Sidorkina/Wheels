@@ -1,0 +1,15 @@
+.map {
+  box-sizing: border-box;
+
+  background: url(../../img/map.png) no-repeat;
+  background-position: top 5px left 0;
+  background-size: 290px 200px;
+}
+
+@media (max-width: 1280px) {
+  .map {
+    height: 200px;
+    width: 290px;
+    margin-bottom: 55px;
+  }
+}

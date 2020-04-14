@@ -1,0 +1,42 @@
+.team {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 529px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  background-color: #ededed;
+}
+
+.team__title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 3.75px;
+  color: #1e1e1e;
+  text-transform: uppercase;
+
+  margin: 0;
+  margin-top: 43px;
+  padding-left: 6px;
+}
+
+.team__intro {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2.25px;
+  text-align: center;
+  color: #1e1e1e;
+  
+  margin: 0;
+  margin-top: 6px;
+  margin-bottom: 57px;
+}
+
+@media (max-width: 980px) {
+  .team__title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,32 @@
+.members {
+  display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+
+  width: 1455px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1680px) {
+  .members {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .members {
+    width: 900px;
+  }
+}
+
+@media (max-width: 968px) {
+  .members {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: auto;
+  }
+}

@@ -1,0 +1,24 @@
+.goods {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  list-style: none;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.goods__item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 980px) {
+  .goods {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wheels</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" href="fonts/raleway-regular.woff2" as="font">
+    <link rel="preload" href="fonts/raleway-lightitalic.woff2" as="font">
+    <link rel="preload" href="fonts/raleway-semibold.woff2" as="font">
+    <link rel="preload" href="fonts/raleway-bold.woff2" as="font">
+    <link rel="preload" href="fonts/raleway-extrabold.woff2" as="font">
+    <link rel="preload" href="fonts/raleway-black.woff2" as="font">
+  </head>
+  <body class="page">
+    <header class="page__header header">
+      <div class="header__top">
+        <div class="header__content header__content_top">
+          <span class="header__logo">Wheels</span>
+          <div class="header__burger burger">
+            <input class="burger__checkbox" id="burger__checkbox" type="checkbox" />
+            <label class="burger__label" for="burger__checkbox">
+              <span class="burger__text">Menu</span>
+              <span class="burger__button"></span>
+            </label>
+            <ul class="burger__menu menu">
+              <li class="menu__item"><a class="menu__link" href="#about-us">About us</a></li>
+              <li class="menu__item"><a class="menu__link" href="#catalog">Products</a></li>
+              <li class="menu__item"><a class="menu__link" href="#footer">Services</a></li>
+              <li class="menu__item"><a class="menu__link" href="#team">Our team</a></li>
+              <li class="menu__item"><a class="menu__link" href="#footer">Blog</a></li>
+              <li class="menu__item"><a class="menu__link" href="#footer">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header__welcome welcome">
+            <h1 class="welcome__heading">Welcome to Wheels</h1>
+            <p class="welcome__text">Your free psd template, perfect for your next big idea</p>
+            <p class="welcome__creator">by Pawel Betkowski</p>
+          </div>
+          <div class="header__scroll scroll">
+            <a class="scroll__link" href="#navigation"></a>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__content header__content_bottom">
+          <span class="header__logo header__logo_bottom">Wheels</span>
+          <nav class="header__navigation navigation" id="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a class="navigation__link" href="#about-us">About us</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#catalog">Products</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#footer">Services</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#team">Our team</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#footer">Blog</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#footer">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="page__main main">
+      <div class="main__hidden"></div>
+      <section class="main__about-us about-us" id="about-us">
+        <h2 class="about-us__title">About us</h2>
+        <p class="about-us__intro">Let’s talk about what makes your company great.</p>
+        <p class="about-us__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet odio molestie, rutrum lacus et, suscipit sem. Fusce eu tristique neque. Nullam in euismod magna. Vestibulum fermentum a dui non vulputate. Morbi hendrerit rhoncus velit at pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse quis sapien neque. Nunc pulvinar vel velit eget porttitor. Sed at sapien luctus nulla lobortis ullamcorper. Proin sit amet nulla quis libero dictum tempor eget in dui. Proin posuere eleifend vehicula.</p>
+      </section>
+      <section class="main__statistics statistics" id="statistics">
+        <div class="statistics__content">
+          <h2 class="statistics__title">Some statistics</h2>
+          <p class="statistics__intro">Showing what your company already acomplished is always a good selling point.</p>
+          <ul class="statistics__list">
+            <li class="statistics__item">
+              <div class="statistics__data">409</div>
+              <div class="statistics__category">Bikes sold</div>
+            </li>
+            <li class="statistics__item">
+              <div class="statistics__data">2012</div>
+              <div class="statistics__category">Year the<br> company started</div>
+            </li>
+            <li class="statistics__item">
+              <div class="statistics__data">0</div>
+              <div class="statistics__category">Unsatisfied customers</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main__catalog catalog" id="catalog">
+        <h2 class="catalog__title">Featured products</h2>
+        <p class="catalog__intro">Your chance to shine</p>
+        <ul class="catalog__list goods">
+          <li class="goods__item good">
+            <picture class="good__picture">
+              <source media="(max-width: 1280px)" srcset="./img/bikes/bike-orange-tablet.jpg">
+              <img class="good__image" src="./img/bikes/bike-orange.jpg" alt="Фото товара" width="398px" height="299px">
+            </picture>
+            <h3 class="good__title">Orandez</h3>
+            <p class="good__price">&#36;399</p>
+            <a class="good__link" href="#">Learn more</a>
+          </li>
+          <li class="goods__item good">
+            <picture class="good__picture">
+              <source media="(max-width: 1280px)" srcset="./img/bikes/bike-green-tablet.jpg">
+              <img class="good__image" src="./img/bikes/bike-green.jpg" alt="Фото товара" width="398px" height="299px">
+            </picture>
+            <h3 class="good__title">Green Devil</h3>
+            <p class="good__price">&#36;399</p>
+            <a class="good__link" href="#">Learn more</a>
+          </li>
+          <li class="goods__item good">
+            <picture class="good__picture">
+              <source media="(max-width: 1280px)" srcset="./img/bikes/bike-blue-tablet.jpg">
+              <img class="good__image" src="./img/bikes/bike-blue.jpg" alt="Фото товара" width="398px" height="299px">
+            </picture>
+            <h3 class="good__title">Blue Lagoon</h3>
+            <p class="good__price">&#36;399</p>
+            <a class="good__link" href="#">Learn more</a>
+          </li>
+          <li class="goods__item good">
+            <picture class="good__picture">
+              <source media="(max-width: 1280px)" srcset="./img/bikes/bike-pink-tablet.jpg">
+              <img class="good__image" src="./img/bikes/bike-pink.jpg" alt="Фото товара" width="398px" height="299px">
+            </picture>
+            <h3 class="good__title">Pink Lady</h3>
+            <p class="good__price">&#36;399</p>
+            <a class="good__link" href="#">Learn more</a>
+          </li>
+          <li class="goods__item good">
+            <picture class="good__picture">
+              <source media="(max-width: 1280px)" srcset="./img/bikes/bike-purple-tablet.jpg">
+              <img class="good__image" src="./img/bikes/bike-purple.jpg" alt="Фото товара" width="398px" height="299px">
+            </picture>
+            <h3 class="good__title">Purple Rain</h3>
+            <p class="good__price">&#36;399</p>
+            <a class="good__link" href="#">Learn more</a>
+          </li>
+          <li class="goods__item good">
+            <picture class="good__picture">
+              <source media="(max-width: 1280px)" srcset="./img/bikes/bike-grey-tablet.jpg">
+              <img class="good__image" src="./img/bikes/bike-grey.jpg" alt="Фото товара" width="398px" height="299px">
+            </picture>
+            <h3 class="good__title">The Mist</h3>
+            <p class="good__price">&#36;399</p>
+            <a class="good__link" href="#">Learn more</a>
+          </li>
+        </ul>
+      </section>
+      <section class="main__team team" id="team">
+        <h2 class="team__title">Meet the team</h2>
+        <p class="team__intro">People who make the magic happen</p>
+        <ul class="team__list members">
+          <li class="members_item member">
+            <picture class="member__picture">
+              <source media="(max-width: 1280px)" srcset="./img/members/ian-tablet.png">
+              <img class="member__image" src="./img/members/ian.png" alt="Фото сотрудника" width="218px" height="218px">
+            </picture>
+            <h3 class="member__name">Ian</h3>
+            <p class="member__role">Founder, CEO</p>
+          </li>
+          <li class="members_item member">
+            <picture class="member__picture">
+              <source media="(max-width: 1280px)" srcset="./img/members/sarah-tablet.png">
+              <img class="member__image" src="./img/members/sarah.png" alt="Фото сотрудника" width="218px" height="218px">
+            </picture>
+            <h3 class="member__name">Sarah</h3>
+            <p class="member__role">Designer</p>
+          </li>
+          <li class="members_item member">
+            <picture class="member__picture">
+              <source media="(max-width: 1280px)" srcset="./img/members/juan-tablet.png">
+              <img class="member__image" src="./img/members/juan.png" alt="Фото сотрудника" width="218px" height="218px">
+            </picture>
+            <h3 class="member__name">Juan</h3>
+            <p class="member__role">Office Wizard</p>
+          </li>
+        </ul>
+      </section>
+      <section class="main__social social">
+        <h2 class="social__title">#Social Showcase</h2>
+        <p class="social__intro">Show your customers why your Instagram account is the one they should follow</p>
+        <ul class="social__photos photos">
+          <li class="photos_item">
+            <picture class="photos__picture">
+              <source media="(max-width: 1280px)" srcset="./img/social/image1-tablet.png">
+              <img class="photos__image" src="./img/social/image1.png" alt="Фото" width="385px" height="385px">
+            </picture>
+          </li>
+          <li class="photos_item">
+            <picture class="photos__picture">
+              <source media="(max-width: 1280px)" srcset="./img/social/image2-tablet.png">
+              <img class="photos__image" src="./img/social/image2.png" alt="Фото" width="385px" height="385px">
+            </picture>
+          </li>
+          <li class="photos_item">
+            <picture class="photos__picture">
+              <source media="(max-width: 1280px)" srcset="./img/social/image3-tablet.png">
+              <img class="photos_image" src="./img/social/image3.png" alt="Фото" width="385px" height="385px">
+            </picture>
+          </li>
+          <li class="photos_item">
+            <picture class="photos__picture">
+              <source media="(max-width: 1280px)" srcset="./img/social/image4-tablet.png">
+              <img class="photos_image" src="./img/social/image4.png" alt="Фото" width="385px" height="385px">
+            </picture>
+          </li>
+        </ul>
+        <p class="social__follow">Follow <span class="social__underline">@Wheels</span> on Instagram</p>
+      </section>
+    </main>
+    <footer class="page__footer footer" id="footer">
+      <div class="footer__content">
+        <div class="footer__logo">Wheelz</div>
+        <section class="footer__block links">
+          <h3 class="links__title">Quick Links</h3>
+          <ul class="links__list">
+            <li class="links__item"><a class="links__link" href="#footer">About us</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Products</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Services</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Our Team</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Blog</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Contact</a></li>
+          </ul>
+        </section>
+        <section class="footer__block links">
+          <h3 class="links__title">Quick Links 2</h3>
+          <ul class="links__list">
+            <li class="links__item"><a class="links__link" href="#footer">FAQ</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Terms & Conditions</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Something Else</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Enything</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Your Ideas</a></li>
+            <li class="links__item"><a class="links__link" href="#footer">Right Here</a></li>
+          </ul>
+        </section>
+        <section class="footer__block social-links">
+          <h3 class="social-links__title">Let's get social!</h3>
+          <ul class="social-links__list">
+            <li class="social-links__item"><a class="social-links__link" href="#footer"><img src="img/icons/facebook.png" alt="facebook"></a></li>
+            <li class="social-links__item"><a class="social-links__link" href="#footer"><img src="img/icons/linked-in.png" alt="linked-in"></a></li>
+            <li class="social-links__item"><a class="social-links__link" href="#footer"><img src="img/icons/instagram.png" alt="instagram"></a></li>
+            <li class="social-links__item"><a class="social-links__link" href="#footer"><img src="img/icons/twitter.png" alt="twitter"></a></li>
+          </ul>
+        </section>
+        <section class="footer__block map"></section>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+
+
+

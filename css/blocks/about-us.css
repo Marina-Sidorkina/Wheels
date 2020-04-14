@@ -1,0 +1,98 @@
+.about-us {
+  box-sizing: border-box;
+
+  text-align: center;
+
+  width: 1344px;
+  margin: 0 auto;
+  padding: 0;
+
+  background-color: #ffffff;
+}
+
+.about-us__title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 3.75px;
+  text-transform: uppercase;
+
+  margin: 0;
+  margin-top: 45px;
+  padding: 0;
+  padding-left: 3px;
+}
+
+.about-us__intro {
+  box-sizing: border-box;
+  position: relative;
+
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2.25px;
+
+  margin: 0;
+  margin-top: 7px;
+  padding: 0;
+  padding-left: 3px;
+
+  z-index: 9;
+}
+
+.about-us__intro::after {
+  content: '';
+
+  position: absolute;
+  left: calc(50% - 44px);
+  bottom: -66px;
+
+  height: 49px;
+  width: 88px;
+
+  background: url(../../img/icons/about-us-icon.png) center no-repeat;
+}
+
+.about-us__info {
+  box-sizing: border-box;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  text-align: left;
+  hyphens: auto;
+
+  margin: 0;
+  margin-top: 83px;
+  margin-bottom: 70px;
+  padding: 0;
+  padding-left: 1px;
+}
+
+@media (max-width: 1680px) {
+  .about-us {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .about-us {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .about-us__title,
+  .about-us__intro {
+    padding-left: auto;
+  }
+
+  .about-us__info {
+    text-align: center;
+
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .about-us__title {
+    font-size: 24px;
+  }
+}
